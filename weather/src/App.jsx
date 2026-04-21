@@ -5,8 +5,7 @@ export default function Weather() {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(false);
 
-  const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-  const API_KEY = "ff678b1ab3472119914bdb07cccccb90";
+ 
 
   let getWeather = async () => {
     try {
